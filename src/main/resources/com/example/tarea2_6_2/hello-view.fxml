@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" />
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="45.0" layoutY="103.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="218.0" layoutY="103.0" mnemonicParsing="false" text="Buscar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TableView layoutX="45.0" layoutY="147.0" prefHeight="200.0" prefWidth="510.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="45.0" layoutY="30.0" text="BUSCADOR DE COMPAÑIAS ">
+         <font>
+            <Font name="MV Boli" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="114.0" layoutX="453.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@com.example.tarea2_6_2.imagenes/logoOdoo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
